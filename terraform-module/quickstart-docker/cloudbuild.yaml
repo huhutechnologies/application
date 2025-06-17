@@ -5,3 +5,5 @@ steps:
   automapSubstitutions: true
 images:
 - '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/test-registry/quickstart-image:tag1'
+options:
+  defaultLogsBucketBehavior: NONE
